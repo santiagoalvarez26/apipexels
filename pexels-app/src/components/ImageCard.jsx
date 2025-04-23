@@ -1,4 +1,4 @@
-// **Asegúrate** de que el archivo se llame exactamente ImageCard.jsx
+
 export default function ImageCard({ image, onClick }) {
     return (
       <div

@@ -1,4 +1,4 @@
-// src/pages/Home.jsx
+
 import { useState, useEffect, useRef } from 'react'
 import { fetchCurated }   from '../api/pexels'
 import ImageGrid          from '../components/ImageGrid'
@@ -13,7 +13,7 @@ export default function Home() {
   const [showLoadBtn, setShowLoadBtn] = useState(false)
   const sentinelRef                   = useRef(null)
 
-  // 1) Carga inicial y siguientes páginas
+
   useEffect(() => {
     loadPage(page)
   }, [page])
@@ -30,14 +30,14 @@ export default function Home() {
     }
   }
 
-  // 2) Intersection Observer para mostrar el botón
+  
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         setShowLoadBtn(entry.isIntersecting)
       },
       {
-        rootMargin: '0px 0px 200px 0px', // dispara un poco antes de llegar al final
+        rootMargin: '0px 0px 200px 0px', 
         threshold: 0.1
       }
     )

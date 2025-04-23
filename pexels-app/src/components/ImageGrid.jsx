@@ -1,4 +1,4 @@
-// src/components/ImageGrid.jsx
+
 import ImageCard from './ImageCard'
 
 export default function ImageGrid({ images, onCardClick }) {

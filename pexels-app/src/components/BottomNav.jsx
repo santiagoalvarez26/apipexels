@@ -1,4 +1,4 @@
-// src/components/BottomNav.jsx
+
 import { createPortal } from 'react-dom'
 import { NavLink } from 'react-router-dom'
 

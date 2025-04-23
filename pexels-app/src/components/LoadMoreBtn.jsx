@@ -6,10 +6,10 @@ export default function LoadMoreBtn({ onClick }) {
       onClick={onClick}
       style={{
         position: 'fixed',
-        bottom: '5rem',              // 80px por encima del fondo
+        bottom: '5rem',              
         left: '50%',
         transform: 'translateX(-50%)',
-        zIndex: 11000,               // más alto que el BottomNav
+        zIndex: 11000,               
         padding: '0.75rem 1.5rem',
         backgroundColor: '#2563EB',
         color: '#FFFFFF',

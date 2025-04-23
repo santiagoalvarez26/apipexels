@@ -22,7 +22,7 @@ export async function fetchCurated(page = 1, perPage = 12) {
 }
 
 /**
- * Busca fotos por palabra clave
+ * 
  * @param {string} query 
  * @param {number} page 
  * @param {number} perPage 
